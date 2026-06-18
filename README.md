@@ -1,20 +1,19 @@
 # Cache Autopilot
 
-Cache Autopilot is a WordPress cache invalidation and warmup plugin bundle that keeps cached pages fresh after content changes — automatically. Instead of flushing everything on every save, it determines exactly which pages are affected, purges only those entries through your active cache plugin, and rebuilds them through controlled warmup execution.
+Cache Autopilot is a WordPress cache freshness plugin that keeps cached pages fresh after content changes — automatically. Instead of flushing everything on every save, it determines exactly which pages are affected, purges only those entries through your active cache plugin, and rebuilds them through controlled warmup execution.
 
-This repository contains the public changelogs for the included plugins:
+This repository contains the public changelog for Cache Autopilot:
 
-- **Cache Invalidator** – see [changelog](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-invalidator/)
-- **Cache Warmup** – see [changelog](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-warmup/)
+* **Cache Autopilot** – see [changelog](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-autopilot/)
 
 Documentation lives on the product website. This repository exists only for release transparency and changelog history.
 
 Visit the website:
-[https://wpcacheautopilot.com](https://wpcacheautopilot.com)
+https://wpcacheautopilot.com
 
 ## How it works
 
-WP Cache Autopilot does not replace cache plugins. Cache plugins handle storage and delivery. WP Cache Autopilot handles cache freshness — the part most cache plugins leave to a full flush.
+Cache Autopilot does not replace cache plugins. Cache plugins handle storage and delivery. Cache Autopilot handles cache freshness — the part most cache plugins leave to a full flush.
 
 Lifecycle handled:
 
@@ -24,7 +23,7 @@ Lifecycle handled:
 4. Queue warmup requests
 5. Rebuild cache via paced execution
 
-## Included plugins
+## Included engines
 
 ### Cache Invalidator
 
@@ -32,14 +31,14 @@ Automatically purges the right WordPress cache entries after content changes —
 
 Core capabilities:
 
-- Post type–based invalidation rules
-- Related post and cross-content invalidation
-- Archive URL inclusion
-- Multilingual support
-- Timed invalidation rules for time-sensitive content
-- Scheduled post support — cache refreshes at publish time
-- Global invalidation controls for theme and template changes
-- Developer hooks and filters for custom integrations
+* Post type–based invalidation rules
+* Related post and cross-content invalidation
+* Archive URL inclusion
+* Multilingual support
+* Timed invalidation rules for time-sensitive content
+* Scheduled post support — cache refreshes at publish time
+* Global invalidation controls for theme and template changes
+* Developer hooks and filters for custom integrations
 
 ### Cache Warmup
 
@@ -47,11 +46,11 @@ Rebuilds cached pages after invalidation so visitors don't hit cold pages.
 
 Core capabilities:
 
-- Targeted cache warming for purged URLs
-- Full site cache preloading from sitemaps
-- Auto-paced queue execution via WP-Cron
-- Priority ordering for high-value pages
-- Diagnostics and run history
+* Targeted cache warming for purged URLs
+* Full site cache preloading from sitemaps
+* Auto-paced queue execution via WP-Cron
+* Priority ordering for high-value pages
+* Diagnostics and run history
 
 ## Integrations
 
@@ -61,21 +60,21 @@ See [Supported Integrations](https://wpcacheautopilot.com/docs/supported-integra
 
 ## Who it's for
 
-WP Cache Autopilot is built for WordPress developers, agencies managing multiple client sites, and technical site owners who need reliable, predictable cache behavior in production — without manual cache management.
+Cache Autopilot is built for WordPress developers, agencies managing multiple client sites, and technical site owners who need reliable, predictable cache behavior in production — without manual cache management.
 
 ## Links
 
-Website:  
-[https://wpcacheautopilot.com](https://wpcacheautopilot.com)
+Website:
+https://wpcacheautopilot.com
 
-Documentation:  
-[https://wpcacheautopilot.com/docs](https://wpcacheautopilot.com/docs)
+Documentation:
+https://wpcacheautopilot.com/docs
 
-Getting Started:  
-[https://wpcacheautopilot.com/docs/getting-started/](https://wpcacheautopilot.com/docs/getting-started/)
+Getting Started:
+https://wpcacheautopilot.com/docs/getting-started/
 
-Support:  
-[https://wpcacheautopilot.com/support/](https://wpcacheautopilot.com/support/)
+Support:
+https://wpcacheautopilot.com/support/
 
 ## Maintainer
 
