@@ -67,7 +67,7 @@ Website:
 [wpcacheautopilot.com](https://wpcacheautopilot.com)
 
 Documentation:
-[wpcacheautopilot.com/docs](https://wpcacheautopilot.com/docs)
+[wpcacheautopilot.com/docs/](https://wpcacheautopilot.com/docs/)
 
 Getting Started:
 [wpcacheautopilot.com/docs/getting-started/](https://wpcacheautopilot.com/docs/getting-started/)
