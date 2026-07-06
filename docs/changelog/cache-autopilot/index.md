@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
 
+### 1.1.2
+*Release Date 6th July 2026*
+
+* Security: Hardened trusted cache-clear handling and plugin access checks.
+* Fix: Improved support-log protection, cron loopbacks, and internal storage prefixes.
+* Fix: Resolved remaining Plugin Check naming warnings for legacy plugin constants.
+
 ### 1.1.1
 *Release Date 25th June 2026*
 
