@@ -7,6 +7,11 @@ title: Cache Autopilot Changelog
 
 > Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
 
+### 1.1.3
+*Release Date 7th July 2026*
+
+* Enhancement: Release workflow optimizations.
+
 ### 1.1.2
 *Release Date 6th July 2026*
 
