@@ -7,6 +7,11 @@ title: Cache Autopilot Changelog
 
 > Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
 
+### 1.1.5
+*Release Date 28th July 2026*
+
+* Fix: Prevented overlapping warmup runs from becoming stuck while preparing after concurrent plugin or theme updates.
+
 ### 1.1.4
 *Release Date 27th July 2026*
 
