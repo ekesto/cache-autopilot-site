@@ -7,6 +7,14 @@ title: Cache Autopilot Changelog
 
 > Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
 
+### 1.1.4
+*Release Date 27th July 2026*
+
+* Fix: Improved targeted warmup coordination for late-arriving URLs and concurrent multilingual invalidations.
+* Fix: Resolved WPML post type archive URLs in their target-language context.
+* Fix: Made targeted run labels distinguish distinct content changes from related multilingual emissions.
+* Enhancement: Improved warmup log clarity and status presentation.
+
 ### 1.1.3
 *Release Date 7th July 2026*
 
