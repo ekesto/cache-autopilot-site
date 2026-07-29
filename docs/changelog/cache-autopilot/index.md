@@ -7,6 +7,11 @@ title: Cache Autopilot Changelog
 
 > Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
 
+### 1.1.6
+*Release Date 29th July 2026*
+
+* Improvement: Added a dedicated, lightweight kick for new warmup runs on sites using server cron, without triggering unrelated WordPress cron tasks.
+
 ### 1.1.5
 *Release Date 28th July 2026*
 
