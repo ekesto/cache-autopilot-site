@@ -5,7 +5,13 @@ title: Cache Autopilot Changelog
 
 ## Cache Autopilot Changelog
 
-> Auto-generated from the plugin changelog. Source of truth lives in the plugin repository.
+> Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
+
+### 1.1.7
+*Release Date 12th August 2026*
+
+* Fix: Improved targeted Brotli cache warming compatibility by routing browser-profile requests through the WordPress HTTP API.
+* Enhancement: Full cache refreshes now begin rebuilding pages promptly after manual actions and automated updates.
 
 ### 1.1.6
 *Release Date 29th July 2026*
