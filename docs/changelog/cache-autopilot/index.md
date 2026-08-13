@@ -7,10 +7,17 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.8
+*Release Date 13th August 2026*
+
+* Enhancement: Warmup diagnostics are now cleaner, easier to understand, and more precise about browser-profile performance and fallbacks.
+* Enhancement: Priority pages and Home now start multilingual full refreshes in the right order across configured languages.
+* Enhancement: Improved settings navigation and made priority-page choices easier to refresh reliably.
+
 ### 1.1.7
 *Release Date 12th August 2026*
 
-* Fix: Improved targeted Brotli cache warming compatibility by routing browser-profile requests through the WordPress HTTP API.
+* Enhancement: Improved targeted Brotli cache warming compatibility by routing browser-profile requests through the WordPress HTTP API.
 * Enhancement: Full cache refreshes now begin rebuilding pages promptly after manual actions and automated updates.
 
 ### 1.1.6
@@ -68,4 +75,4 @@ title: Cache Autopilot Changelog
 
 * Initial public release of Cache Autopilot after extended production use on real WordPress sites, including large installations with more than 1,200 pages.
 * Added Free/PRO-ready internal structure while keeping the free plugin fully functional on its own.
-* Preserved historical changelogs for the former two separate plugins Cache Invalidator and Cache Warmup.
+* Preserved historical changelogs for the former two separate plugins [Cache Invalidator](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-invalidator/) and [Cache Warmup](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-warmup/).
