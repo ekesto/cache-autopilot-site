@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.9
+*Release Date 14th August 2026*
+
+* Enhancement: Preserved the active WPML language after multilingual form changes.
+* Enhancement: Updated WordPress compatibility to 7.1.
+* Fix: Ensured shared block theme changes refresh all affected pages when template usage cannot be resolved completely.
+
 ### 1.1.8
 *Release Date 13th August 2026*
 
