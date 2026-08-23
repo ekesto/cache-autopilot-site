@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.10
+*Release Date 22nd August 2026*
+
+* Enhancement: Polished the settings experience with clearer user search feedback and priority controls that follow the selected WordPress admin color scheme.
+* Fix: Made warmup transport diagnostics clearer and more accurate about browser-profile requests and standard fallbacks.
+* Fix: Prevented Elementor autosaves from triggering premature cache refreshes.
+
 ### 1.1.9
 *Release Date 14th August 2026*
 
