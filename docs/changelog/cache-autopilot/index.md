@@ -7,17 +7,23 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.11
+*Release Date 26th August 2026*
+
+* [PRO] Fix: Prevented delegated-access admin menu conflicts and kept both Cache Autopilot menus neatly together.
+* Enhancement: Improved the plugin readme for clarity and feature discovery.
+
 ### 1.1.10
 *Release Date 22nd August 2026*
 
 * Enhancement: Polished the settings experience with clearer user search feedback and priority controls that follow the selected WordPress admin color scheme.
 * Fix: Made warmup transport diagnostics clearer and more accurate about browser-profile requests and standard fallbacks.
-* Fix: Prevented Elementor autosaves from triggering premature cache refreshes.
+* [PRO] Fix: Prevented Elementor autosaves from triggering premature cache refreshes.
 
 ### 1.1.9
 *Release Date 14th August 2026*
 
-* Enhancement: Preserved the active WPML language after multilingual form changes.
+* [PRO] Enhancement: Preserved the active WPML language after multilingual form changes.
 * Enhancement: Updated WordPress compatibility to 7.1.
 * Fix: Ensured shared block theme changes refresh all affected pages when template usage cannot be resolved completely.
 
@@ -25,7 +31,7 @@ title: Cache Autopilot Changelog
 *Release Date 13th August 2026*
 
 * Enhancement: Warmup diagnostics are now cleaner, easier to understand, and more precise about browser-profile performance and fallbacks.
-* Enhancement: Priority pages and Home now start multilingual full refreshes in the right order across configured languages.
+* [PRO] Enhancement: Priority pages and Home now start multilingual full refreshes in the right order across configured languages.
 * Enhancement: Improved settings navigation and made priority-page choices easier to refresh reliably.
 
 ### 1.1.7
@@ -48,8 +54,8 @@ title: Cache Autopilot Changelog
 *Release Date 27th July 2026*
 
 * Fix: Improved targeted warmup coordination for late-arriving URLs and concurrent multilingual invalidations.
-* Fix: Resolved WPML post type archive URLs in their target-language context.
-* Fix: Made targeted run labels distinguish distinct content changes from related multilingual emissions.
+* [PRO] Fix: Resolved WPML post type archive URLs in their target-language context.
+* [PRO] Fix: Made targeted run labels distinguish distinct content changes from related multilingual emissions.
 * Enhancement: Improved warmup log clarity and status presentation.
 
 ### 1.1.3
@@ -77,7 +83,7 @@ title: Cache Autopilot Changelog
 ### 1.0.2
 *Release Date 19th June 2026*
 
-* Fix: Improved Plugin Check compatibility for PRO integrations.
+* [PRO] Fix: Improved Plugin Check compatibility for PRO integrations.
 
 ### 1.0.1
 *Release Date 19th June 2026*
