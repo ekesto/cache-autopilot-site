@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.12
+*Release Date 28th August 2026*
+
+* [PRO] Fix: Prevented unnecessary full cache refreshes when publishing Elementor pages with newly created components.
+* Fix: Prevented invalid duration values from appearing in warmup run logs.
+
 ### 1.1.11
 *Release Date 26th August 2026*
 
