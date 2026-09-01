@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.1.14
+*Release Date 1st September 2026*
+
+* Fix: Parent category pages now refresh after category edits and updates to content in child categories.
+* Fix: Category and tag pages now warm up after URL changes without waiting for sitemap updates.
+
 ### 1.1.13
 *Release Date 31st August 2026*
 
