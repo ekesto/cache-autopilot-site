@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.2.0
+*Release Date 2nd September 2026*
+
+* **New: WooCommerce support is now included in Free.** Product changes refresh affected product, Shop, category, and tag pages — targeted by default, with optional all-product refresh for dynamic product-page content. [Learn more about WooCommerce support](https://wpcacheautopilot.com/docs/supported-integrations/#woocommerce).
+
+* **New: Additional Singular Post Types is now included in Free.** Refresh all singular pages of selected post types when broader coverage is needed. [Learn more](https://wpcacheautopilot.com/docs/cache-invalidator/#additional-singular-post-types).
+
 ### 1.1.14
 *Release Date 1st September 2026*
 
