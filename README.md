@@ -1,67 +1,84 @@
 # Cache Autopilot
 
-Cache Autopilot is a WordPress cache freshness plugin that keeps cached pages fresh after content changes — automatically. Instead of flushing everything on every save, it determines exactly which pages are affected, purges only those entries through your active cache plugin, and rebuilds them through controlled warmup execution.
+Cache Autopilot is a WordPress cache freshness plugin that keeps cached pages fresh after content changes — automatically. Instead of flushing everything on every save, it determines which pages are affected, purges those entries through your active cache plugin, and rebuilds them through controlled background warmup.
+
+**Cache Autopilot Free is available on WordPress.org:**
+[wordpress.org/plugins/cache-autopilot](https://wordpress.org/plugins/cache-autopilot/)
 
 This repository contains the public changelog for Cache Autopilot:
 
-* see [Cache Autopilot changelog](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-autopilot/)
+* [Cache Autopilot changelog](https://ekesto.github.io/cache-autopilot-site/docs/changelog/cache-autopilot/)
 
-Documentation lives on the product website. This repository exists only for release transparency and changelog history.
+Documentation lives on the product website. This repository exists primarily for release transparency and changelog history.
 
-Visit the website: [wpcacheautopilot.com](https://wpcacheautopilot.com)
+Visit the website:
+[wpcacheautopilot.com](https://wpcacheautopilot.com)
 
 ## How it works
 
-Cache Autopilot does not replace cache plugins. Cache plugins handle storage and delivery. Cache Autopilot handles cache freshness — the part most cache plugins leave to a full flush.
+Cache Autopilot does not replace cache plugins. Cache plugins handle storage and delivery. Cache Autopilot handles cache freshness — determining which cached pages need to refresh after something changes.
 
-Lifecycle handled:
+Lifecycle:
 
-1. Detect content changes
+1. Detect changes
 2. Resolve affected URLs
-3. Purge via cache adapter
+3. Purge through the active cache adapter
 4. Queue warmup requests
-5. Rebuild cache via paced execution
+5. Rebuild cache through paced background execution
 
 ## Included engines
 
 ### Cache Invalidator
 
-Automatically purges the right WordPress cache entries after content changes — without clearing the entire cache.
+Determines which WordPress pages are affected by a change and purges their cached entries without unnecessarily clearing the entire cache.
 
-Core capabilities:
+Core capabilities include:
 
-* Post type–based invalidation rules
-* Related post and cross-content invalidation
-* Archive URL inclusion
-* Multilingual support
-* Timed invalidation rules for time-sensitive content
-* Scheduled post support — cache refreshes at publish time
-* Global invalidation controls for theme and template changes
-* Developer hooks and filters for custom integrations
+* Post and custom post type invalidation
+* Archive and taxonomy targeting
+* Gutenberg and block-theme structural support
+* Presentation-change handling
+* Supported form-plugin propagation
+* Manual targeting and fallback modes
+* Developer filters for custom workflows
+* PRO integrations for advanced content relationships, Elementor, WooCommerce, ACF, multilingual sites and timed invalidation
 
 ### Cache Warmup
 
-Rebuilds cached pages after invalidation so visitors don't hit cold pages.
+Rebuilds purged pages so visitors are less likely to hit cold cache entries.
 
-Core capabilities:
+Core capabilities include:
 
-* Targeted cache warming for purged URLs
-* Full site cache preloading from sitemaps
-* Auto-paced queue execution via WP-Cron
-* Priority ordering for high-value pages
+* Targeted preload for purged URLs
+* Full-site cache preloading
+* Auto-paced background execution via WP-Cron
+* Priority ordering
 * Diagnostics and run history
 
 ## Integrations
 
-Cache Autopilot integrates with widely used WordPress cache plugins. Behavior depends on adapter capabilities and hosting environment.
+Cache Autopilot works alongside supported WordPress cache plugins and uses their URL-level purge capabilities.
 
-See [Supported Integrations](https://wpcacheautopilot.com/docs/supported-integrations/) for the full compatibility list.
+Compatibility depends on the cache plugin and hosting environment.
+
+See [Supported Integrations](https://wpcacheautopilot.com/docs/supported-integrations/) for the current compatibility list.
+
+## Free and PRO
+
+Cache Autopilot Free is a permanent standalone plugin available from the official WordPress.org Plugin Directory.
+
+Cache Autopilot PRO adds advanced integrations and resolution capabilities for setups including Elementor, WooCommerce, ACF, multilingual sites, content relationships and timed invalidation.
+
+Free and PRO share the same source codebase and aligned version numbers.
 
 ## Who it's for
 
-Cache Autopilot is built for WordPress developers, agencies managing multiple client sites, and technical site owners who need reliable, predictable cache behavior in production — without manual cache management.
+Cache Autopilot is built for WordPress developers, agencies managing client sites, and technical site owners who need reliable cache freshness without relying on manual cache clears or unnecessary full-site purges.
 
 ## Links
+
+WordPress.org:
+[wordpress.org/plugins/cache-autopilot](https://wordpress.org/plugins/cache-autopilot/)
 
 Website:
 [wpcacheautopilot.com](https://wpcacheautopilot.com)
@@ -78,4 +95,4 @@ Support:
 ## Maintainer
 
 Developed and maintained by Beat Schenkel (ekesto), an independent WordPress developer:
-[https://ekesto.com](ekesto.com)
+[ekesto.com](https://ekesto.com)
