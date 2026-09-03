@@ -7,6 +7,11 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.2.1
+*Release Date 3rd September 2026*
+
+* Enhancement: Settings UI improvements.
+
 ### 1.2.0
 *Release Date 2nd September 2026*
 
