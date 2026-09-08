@@ -7,6 +7,15 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.3.0
+*Release Date 8th September 2026*
+
+* Enhancement: Admin notices optimized.
+* [PRO] Enhancement: Non-Administrator users with plugin access now see the *Cache Invalidator* and *Cache Warmup* menu items under `Settings` instead of as top-level admin menu items.
+* [PRO] New: Added Elementor 4.3 support for Atomic Default Styles and Global Classes.
+* [PRO] Enhancement: Added targeted refresh support for alternate Loop Grid templates and improved Theme Builder Display Condition changes.
+* [PRO] Fix: Prevented first-time Theme Builder assignments and unrelated Elementor saves from triggering unnecessary full-site refreshes.
+
 ### 1.2.1
 *Release Date 3rd September 2026*
 
