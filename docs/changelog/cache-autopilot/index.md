@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.4.0
+*Release Date 10th September 2026*
+
+* New: Added cache adapters for SpeedyCache, WP Optimize, and SiteGround Speed Optimizer.
+* New: Added WP Fastest Cache adapter support, ready to activate with their upcoming URL-purge release.
+* [PRO] Fix: Ensured pages refresh when an assigned Elementor Theme Builder template is moved to Trash or permanently deleted.
+
 ### 1.3.0
 *Release Date 8th September 2026*
 
