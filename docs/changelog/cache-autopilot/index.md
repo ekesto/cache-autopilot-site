@@ -7,6 +7,15 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.0
+
+*Release Date: 14th September 2026*
+
+* New: Added targeted refresh and full warmup support for native Post date archives.
+* New: Added configurable pagination support for post type, taxonomy, and date archives, including multilingual archive URLs in PRO.
+* [PRO] Enhancement: Improved the native “View details” information for Freemius and Git Updater, including descriptions, changelogs, and banners.
+* [PRO] Maintenance: Updated the Freemius SDK to 2.13.4.
+
 ### 1.4.0
 *Release Date 10th September 2026*
 
