@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.1
+
+*Release Date: 14th September 2026*
+
+* [PRO] Fix: Corrected changelog and banner presentation in native “View details” for Freemius and Git Updater distributions.
+
 ### 1.5.0
 
 *Release Date: 14th September 2026*
