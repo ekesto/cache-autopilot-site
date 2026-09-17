@@ -7,6 +7,13 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.2
+
+*Release Date: 17th September 2026*
+
+* Enhancement: Removed the 5,000-URL limit from sitemap-based full warmups, allowing large sitemaps to be processed completely.
+* Performance: Reduced sitemap membership storage and significantly improved sitemap and warmup priority processing on large sites.
+
 ### 1.5.1
 
 *Release Date: 14th September 2026*
