@@ -7,6 +7,15 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.3
+
+*Release Date: 21th September 2026*
+
+* Enhancement: Follow URL progress in the Warmup log as a run unfolds. Expanded details stay open and update as URLs are warmed.
+* Enhancement: Added selectable Year, Month, and Day levels for native Post date archives to reduce unnecessary warmup requests.
+* Enhancement: Reduced the WordPress.org readme size by keeping only the latest release notes and linking to the full changelog.
+* [PRO] Fix: Generally increased the time input field width of *Timed Invalidation* due to Firefox's native clock icon that was introduced in a recent version.
+
 ### 1.5.2
 
 *Release Date: 17th September 2026*
