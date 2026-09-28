@@ -7,8 +7,6 @@ Cache Autopilot is a WordPress cache freshness plugin built around **two separat
 
 Together, they provide targeted cache refresh without unnecessarily flushing the entire site cache.
 
-> **Keeps WordPress cache fresh by purging affected pages, then preloading them safely in the background.**
-
 **Cache Autopilot Free is available on WordPress.org:**  
 [wordpress.org/plugins/cache-autopilot](https://wordpress.org/plugins/cache-autopilot/)
 
@@ -123,7 +121,7 @@ A typical workflow is:
 
 ## Links
 
-**WordPress.org**  
+**Cache Autopilot Free on WordPress.org**  
 [wordpress.org/plugins/cache-autopilot](https://wordpress.org/plugins/cache-autopilot/)
 
 **Website**  
