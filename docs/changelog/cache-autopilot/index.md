@@ -7,6 +7,18 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.4
+
+*Release Date: 1st October 2026*
+
+* Enhancement: Optimized warmup log trigger labels.
+* Enhancement: Shortened the WP-Cron notice, improved spacing and added a link to the documentation.
+* Fix: Manual URL Exclusions are now reliably enforced across targeted and queued warmup requests.
+* Fix: Improved LiteSpeed Cache purge reliability for scheduled and asynchronous cache refreshes, ensuring purges complete before background preload begins.
+* Fix: Full warmups now start immediately when replacing a targeted warmup in the same request, avoiding unnecessary WP-Cron fallback.
+* Fix: Pending targeted URLs are now preserved when a full warmup replaces a targeted warmup, while continuing to respect Manual URL Exclusions.
+* [PRO] Fix: Multilingual fanout settings are now consistently respected across content, post-type and timed invalidation.
+
 ### 1.5.3
 
 *Release Date: 21th September 2026*
