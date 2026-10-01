@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.5
+
+*Release Date: 2nd October 2026*
+
+* Fix: Improved LiteSpeed cache warmup so preloaded pages are more reliably available as cache hits for visitors.
+
 ### 1.5.4
 
 *Release Date: 1st October 2026*
