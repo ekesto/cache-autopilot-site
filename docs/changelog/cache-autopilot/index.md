@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.6
+
+*Release Date: 8th November 2026*
+
+* Fix: Improved warmup request compatibility for more reliable cache preloading across browsers and caching environments.
+
 ### 1.5.5
 
 *Release Date: 2nd October 2026*
