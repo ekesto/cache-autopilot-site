@@ -7,6 +7,17 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.7
+
+*Release Date: 9th November 2026*
+
+* Enhancement: Find target pages with Shift+F, filter your selection, and clear it in one click.
+* Enhancement: The page selection modal now stays open when pressing Esc, preventing accidental loss of changes.
+* Fix: Skip WooCommerce Cart, Checkout, and My Account pages during warmup.
+* [PRO] Enhancement: **Elementor 4.4 compatibility** — tested with the stable release, including Atomic Components, Carousels, Loop Templates, and MCP workflows.
+* [PRO] Fix: More reliable targeted cache refresh for Elementor publications, restored revisions, popup settings, and Theme Builder assignments.
+* [PRO] Fix: Explicit Elementor cache clearing now purges the page cache before background preload begins.
+
 ### 1.5.6
 
 *Release Date: 8th November 2026*
