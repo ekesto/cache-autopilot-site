@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.9
+
+*Release Date: 13th November 2026*
+
+* Fix: Improved LiteSpeed Cache reliability during plugin updates, ensuring full cache purges complete before background preloading begins.
+
 ### 1.5.8
 
 *Release Date: 12th November 2026*
