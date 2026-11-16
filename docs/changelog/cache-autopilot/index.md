@@ -7,6 +7,21 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.10
+
+*Release Date: 16th November 2026*
+
+* Fix: Rapid, consecutive and nested content updates now reliably refresh affected pages and date archives.
+* Fix: Background invalidation jobs no longer lose pending refreshes when multiple changes overlap.
+* Fix: Full cache purges no longer suppress subsequent content changes.
+* Fix: Prevent unnecessary sitewide cache refreshes when editing WooCommerce Cart or Checkout templates.
+* Enhancement: Reduced unnecessary sitemap rebuilds caused by routine WordPress and plugin activity, while preserving updates when relevant content changes.
+* Enhancement: Shortened delays between full warmup batches.
+* Enhancement: Settings UI cleanup and enhanced cron notifications with a link to the docs.
+* Enhancement: Refined async invalidation handling for externally managed WordPress cron.
+* [PRO] Fix: WPML secondary-language edits no longer unnecessarily refresh the original language.
+* [PRO] Enhancement: More precise multilingual synced-pattern refreshes.
+
 ### 1.5.9
 
 *Release Date: 13th November 2026*
