@@ -7,6 +7,12 @@ title: Cache Autopilot Changelog
 
 > Note: Free and PRO packages share the same version number. Some releases may only affect PRO features, but version alignment keeps package compatibility, support, and upgrade paths consistent.
 
+### 1.5.12
+
+*Release Date: 20th November 2026*
+
+- Enhancement: LiteSpeed Cache – Full purges triggered via WP-CLI (`wp litespeed-purge all`) now automatically start background warmup.
+
 ### 1.5.11
 
 *Release Date: 17th November 2026*
